@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Payments">
+    
+	<test thread-count="5" name="netBanking">
+		<classes>
+
+			<class name="qAFox.tpack.ClassOne" />
+			<class name="qAFox.tpack.ClassThree" />
+			<class name="qAFox.opack.ClassFour" />
+			<class name="qAFox.opack.ClassFive" />
+			<class name="qAFox.kpack.ClassSeven" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="credit/debitcards">
+		<classes>
+			<class name="qAFox.tpack.ClassTwo" />
+			<class name="qAFox.opack.ClassSix" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

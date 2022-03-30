@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="http://www.tutorialsninja.com/demo/"></parameter>
+	<test thread-count="5" name="TestModuleOne">
+		<classes>
+			<class name="parameterisation.ParameterisationClassLevel1" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="TestModuleTwo">
+		<classes>
+			<class name="parameterisation.ParameterisationClassLevel" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
